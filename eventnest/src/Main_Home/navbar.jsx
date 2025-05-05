@@ -1,13 +1,13 @@
-import React,{useState} from "react";
-import "./navbar.css";
-import {Link} from 'react-router-dom';
+import React,{useState} from "react"
+import "./navbar.css"
+import {Link} from 'react-router-dom'
 
 
 const Navbar = () => {
-  const [flag,setFlag] = useState(false);  
+  const [flag,setFlag] = useState(false)
   const handleclick = () => {
     setFlag(!flag)
-  };
+  }
 
   return (
     <nav className="navbar">

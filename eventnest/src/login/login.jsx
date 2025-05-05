@@ -1,8 +1,12 @@
 import React from 'react';
 import './Login.css';
+import Navbar from '../Main_Home/navbar';
+
 
 const Login = () => {
   return (
+    <>
+    <Navbar/>
     <div className="login-wrapper">
       <div className="login-card">
         <h2 className="login-title">Welcome Back</h2>
@@ -31,10 +35,10 @@ const Login = () => {
             <span>Login with Facebook</span>
           </div>
         </div>
-        
-        <p className="login-footer">Don't have an account? <a href="#">Sign up</a></p>
+        <p className="login-footer">Don't have an account? <a href='/signup'>Sign Up</a></p>
       </div>
     </div>
+    </>
   );
 };
 

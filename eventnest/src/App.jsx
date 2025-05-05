@@ -1,26 +1,23 @@
 import React from 'react'
-import Navbar from "./Home/navbar"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from "./login";
+import Login from "./login/login.jsx";
+import ImageSlider from './Main_Home/imageSlider.jsx';
+import Signup from './login/Signup.jsx';
 
 
-const Home = () => (
-  <section style={{ padding: '2rem' }}>
-    <h2>Welcome to the Home Page</h2>
-  </section>
-);
+
 
 const App = () => {
   return (
+    <>
     <Router>
-      <Navbar />
-
       <Routes>
-        <Route path='/' element = {<Home />}/>
+        <Route path='/' element={<ImageSlider />}/>
         <Route path="/login" element={<Login />}/>
+        <Route path='/signup' element={<Signup/>}/>
       </Routes>
     </Router>
-
+    </>
     
   )
 }
