@@ -15,9 +15,9 @@ const Navbar = () => {
       <div className = "menu-icon" onClick={handleclick}>☰</div>
       <ul className={`nav-links ${flag?'active':""}`}>
         <li><Link to="/">Home</Link></li>
-        <li><a href="#categories">Categories</a></li>
+        <li><Link to="/categories">Categories</Link></li>
         <li><a href="#service">Service</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
 
       <Link to="/login">

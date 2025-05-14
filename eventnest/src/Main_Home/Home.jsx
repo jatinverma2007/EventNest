@@ -1,10 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './navbar';
+// import EventGrid from './EventGrid';
+import EventSection from "./imageSlider";
+import FeatureSection from './FeatureSection';
+
 
 const home = () => {
   return (
-    <section style={{ padding: '2rem' }}>
-      <h2>Welcome to the Home Page</h2>
-    </section>
+    <>
+    <Navbar/>
+    <EventSection/>
+    {/* <EventGrid/> */}
+    <FeatureSection/>
+    </>
   )
 }
 
