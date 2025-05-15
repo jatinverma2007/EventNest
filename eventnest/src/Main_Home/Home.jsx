@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './navbar';
-// import EventGrid from './EventGrid';
 import EventSection from "./imageSlider";
 import FeatureSection from './FeatureSection';
+import EventIntroSection from './EventIntroSection';
 
 
 const home = () => {
@@ -10,8 +10,9 @@ const home = () => {
     <>
     <Navbar/>
     <EventSection/>
-    {/* <EventGrid/> */}
     <FeatureSection/>
+    <EventIntroSection/>
+
     </>
   )
 }
