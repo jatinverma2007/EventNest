@@ -1,0 +1,130 @@
+.event-planning-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #2b2b2b;
+  background-color: #cfd4fe;
+}
+
+/* Hero Section */
+.event-planning-hero {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.calendar-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  animation: bounce 1.5s infinite;
+}
+
+.event-planning-hero h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.event-planning-hero p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+/* Planning Details */
+.event-planning-details {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-top: -40px;
+  position: relative;
+  z-index: 1;
+}
+
+.event-planning-details h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.event-planning-details ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.event-planning-details li {
+  padding: 12px 20px;
+  font-size: 1.05rem;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+.event-planning-details li::before {
+  content: "✔";
+  color: #2575fc;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Call to Action */
+.event-planning-cta {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #e6f0ff;
+  margin-top: 40px;
+}
+
+.event-planning-cta h2 {
+  font-size: 1.9rem;
+  color: #1a3e72;
+}
+
+.event-planning-cta p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 15px auto;
+  color: #333;
+}
+
+.event-planning-cta button {
+  padding: 14px 32px;
+  background-color: #2575fc;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.event-planning-cta button:hover {
+  background-color: #1a5edb;
+}
+
+/* Animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .event-planning-hero h1 {
+    font-size: 2rem;
+  }
+
+  .event-planning-cta h2 {
+    font-size: 1.6rem;
+  }
+}

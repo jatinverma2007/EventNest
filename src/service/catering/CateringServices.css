@@ -1,0 +1,172 @@
+/* Base Styling */
+.catering-page {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffaf3;
+    color: #4a2c18;
+  }
+  
+  /* Hero Section */
+  .catering-hero {
+    background-image: url('../../Images/catering-hero.jpg'); /* Replace with a vibrant food image */
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 30px;
+  }
+  
+  .catering-overlay {
+    background-color: rgba(0, 0, 0, 0.475);
+    padding: 50px 20px;
+    text-align: center;
+    color: #fffbea;
+    border-radius: 20px;
+  }
+  
+  .catering-overlay h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .catering-overlay p {
+    font-size: 1.25rem;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  
+  /* Highlights Section */
+  .catering-highlights {
+    padding: 60px 30px;
+    text-align: center;
+    background-color: #fff3e0;
+  }
+  
+  .catering-highlights h2 {
+    font-size: 2.5rem;
+    color: #b65c20;
+    margin-bottom: 40px;
+    font-weight: 600;
+  }
+  
+  .highlight-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+  }
+  
+  .highlight-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.08);
+    width: 260px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .highlight-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .highlight-icon {
+    font-size: 2.2rem;
+    color: #ff7043;
+    margin-bottom: 18px;
+  }
+  
+  .highlight-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  .highlight-card p {
+    font-size: 0.95rem;
+    color: #6b4f3d;
+  }
+  
+  /* Gallery Section */
+  .catering-gallery {
+    padding: 60px 30px;
+    background-color: #ffe9cc;
+  }
+  
+  .catering-gallery h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 35px;
+    color: #a94700;
+    font-weight: 600;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+  }
+  .gallery-grid figure {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .gallery-grid figcaption {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    color: #7a5035;
+    font-weight: 500;
+  }
+  
+  
+  .gallery-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 4px solid #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-grid img:hover {
+    transform: scale(1.03);
+  }
+  
+  /* CTA Section */
+  .catering-cta {
+    background-color: #ffedd5;
+    text-align: center;
+    padding: 60px 20px;
+    color: #442100;
+  }
+  
+  .catering-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+  
+  .catering-cta p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 25px;
+  }
+  
+  .catering-book-btn {
+    background-color: #e65100;
+    color: white;
+    padding: 14px 32px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .catering-book-btn:hover {
+    background-color: #bf360c;
+  }
+  

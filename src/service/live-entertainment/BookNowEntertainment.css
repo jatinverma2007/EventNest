@@ -1,0 +1,56 @@
+.entertainment-booknow-container {
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 40px;
+    background: linear-gradient(to right, #fff3e6, #ffe0f0);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .entertainment-title {
+    text-align: center;
+    font-size: 2.3rem;
+    color: #ff007f;
+    margin-bottom: 10px;
+  }
+  
+  .entertainment-subtitle {
+    text-align: center;
+    color: #6c2f6e;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .entertainment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .entertainment-form input,
+  .entertainment-form select,
+  .entertainment-form textarea {
+    padding: 12px;
+    border: 1px solid #ffaacc;
+    border-radius: 10px;
+    background-color: #fffdfd;
+    font-size: 1rem;
+  }
+  
+  .entertainment-form button {
+    background-color: #ff1493;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .entertainment-form button:hover {
+    background-color: #cc0066;
+  }
+  

@@ -1,0 +1,73 @@
+.theme-enquiry-container {
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #b8b8b8, #f3f9ff);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .theme-enquiry-heading {
+    text-align: center;
+    color: #524f54;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .theme-enquiry-subtext {
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .theme-enquiry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .theme-enquiry-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .theme-enquiry-form input,
+  .theme-enquiry-form textarea {
+    flex: 1;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border 0.3s ease;
+  }
+  
+  .theme-enquiry-form input:focus,
+  .theme-enquiry-form textarea:focus {
+    border: 1.5px solid #4b0082;
+    outline: none;
+  }
+  
+  .theme-enquiry-form textarea {
+    resize: none;
+  }
+  
+  .theme-enquiry-form button {
+    padding: 14px;
+    background-color: #28252a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .theme-enquiry-form button:hover {
+    background-color: #380062;
+  }
+  

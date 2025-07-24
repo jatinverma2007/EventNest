@@ -1,0 +1,118 @@
+.login-wrapper {
+    min-height: 100vh;
+    background: #cf94f1c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 30px;
+  }
+
+  .login-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .login-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+
+  .login-subtitle {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #666;
+  }
+  
+
+  .login-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .login-form input:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+
+  .login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #3a78c2;
+  }
+  
+  .login-footer {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .login-footer a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .login-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .google-login, .facebook-login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+  }
+  
+  .google-login {
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #ccc;
+  }
+  
+  .facebook-login {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+  }
+  
+  .social-icon {
+    width: 20px;
+    height: 20px;
+  }
+  

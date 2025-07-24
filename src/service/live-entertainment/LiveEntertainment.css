@@ -1,0 +1,144 @@
+/* General Container */
+.live-entertainment-container {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e1dae8;
+    color: #1a1a1a;
+    padding-bottom: 50px;
+  }
+  
+  /* Hero Section */
+  .live-entertainment-hero {
+    background-image: url('../../Images/live-entertainment-hero.jpg'); /* optional background */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px 80px;
+    background-color: #111827;
+    color: white;
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  .live-icon {
+    font-size: 60px;
+    color: #facc15; /* vibrant yellow */
+    margin-bottom: 20px;
+  }
+  
+  .live-entertainment-hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .live-entertainment-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+  
+  /* Service Section */
+  .live-services {
+    padding: 60px 20px 40px;
+    text-align: center;
+  }
+  
+  .live-services h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #111827;
+  }
+  
+  .live-service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .live-card {
+    background-color: rgb(175, 170, 249);
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .live-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .card-icon {
+    font-size: 40px;
+    color: #ef4444; /* energetic red */
+    margin-bottom: 15px;
+  }
+  
+  .live-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .live-card p {
+    font-size: 1rem;
+    color: #4b5563;
+  }
+  
+  /* Extras Section */
+  .live-extras {
+    padding: 50px 20px;
+    background-color: #d8e9fbe8;
+  }
+  
+  .live-extras h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: #111827;
+  }
+  
+  .live-extras ul {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 20px;
+    list-style: disc;
+    font-size: 1rem;
+    color: #374151;
+    line-height: 1.8;
+  }
+  
+  /* CTA Section */
+  .live-cta {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .live-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .live-cta p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    opacity: 0.9;
+  }
+  
+  .live-book-btn {
+    background-color: #facc15;
+    color: #1e293b;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .live-book-btn:hover {
+    background-color: #eab308;
+  }
+  

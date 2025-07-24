@@ -1,0 +1,73 @@
+.award-enquire-container {
+    background: linear-gradient(to right, #1a1a1a, #4d4c4088);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .award-enquire-box {
+    background: #111111;
+    border: 2px solid #d4af37;
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+    text-align: center;
+  }
+  
+  .award-enquire-box h1 {
+    color: #f7d774;
+    margin-bottom: 10px;
+  }
+  
+  .award-enquire-box p {
+    color: #ccc;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .award-enquire-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .award-enquire-form input,
+  .award-enquire-form textarea {
+    padding: 12px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .award-enquire-form input::placeholder,
+  .award-enquire-form textarea::placeholder {
+    color: #999;
+  }
+  
+  .award-enquire-form textarea {
+    resize: none;
+  }
+  
+  .award-enquire-form button {
+    background-color: #d4af37;
+    color: #1a1a1a;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .award-enquire-form button:hover {
+    background-color: #b2891e;
+  }
+  

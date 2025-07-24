@@ -1,0 +1,173 @@
+/* CorporateMeet.css */
+
+.corporate-page {
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+    background-color: #f7f5cf;
+  }
+  
+  .hero-section {
+    position: relative;
+    text-align: center;
+    color: rgb(250, 250, 250);
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    filter: brightness(65%);
+    border-radius: 30px;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+  }
+  
+  .hero-text h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+  
+  .why-section,
+  .package-section,
+  .themes-section,
+  .venue-section,
+  .testimonial-section,
+  .cta-section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    background-color: #fae897;
+    border-radius: 80px;
+  }
+
+  .why-section,
+  .themes-section,
+  .testimonial-section{
+    margin-left: 400px;
+  }
+
+
+  .package-section,
+  .venue-section,
+  .cta-section {
+    background-color: #fbe751d7;
+    margin-right: 400px;
+  }
+  
+  .why-section h2,
+  .package-section h2,
+  .themes-section h2,
+  .venue-section h2,
+  .testimonial-section h2,
+  .cta-section h2 {
+    color: #342e0cf9;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .why-section ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.05rem;
+  }
+  
+  .why-section li {
+    margin: 12px 0;
+  }
+  
+  .package-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background: #fcfce6;
+    padding: 25px;
+    border-radius: 12px;
+    width: 280px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    color: #5721a4;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #2f1065;
+    margin-top: 10px;
+  }
+  
+  .theme-img,
+  .venue-img {
+    width: 80%;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .testimonial img {
+    width: 500px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial blockquote {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  .cta-section button {
+    padding: 14px 36px;
+    background-color: #000000;
+    border: none;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-section button:hover {
+    background-color: #3e157a;
+  }
+  .cta-section p{
+    color: #3e157a;
+  }
+  .cta-section{
+    background-color: #fbe751d7;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-text h1 {
+      font-size: 2.2rem;
+    }
+    .package-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

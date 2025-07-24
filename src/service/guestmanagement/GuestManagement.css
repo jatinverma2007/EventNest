@@ -1,0 +1,118 @@
+.guest-management-page {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #a8d1f9;
+    padding: 40px 20px;
+    color: #2b2b2b;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  
+  .guest-hero {
+    text-align: center;
+    padding-bottom: 40px;
+    
+  }
+  
+  .guest-hero h1 {
+    font-size: 2.5rem;
+    color: #154c79;
+    margin-bottom: 10px;
+    
+  }
+  
+  .guest-hero p {
+    color: #555;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: auto;
+    
+  }
+  
+  .guest-icon {
+    color: #1c7ed6;
+    margin-bottom: 0px;
+
+    
+    
+    
+    
+  }
+  
+  .guest-features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 40px auto;
+    max-width: 1100px;
+  }
+  
+  .guest-feature-box {
+    background-color: #e6f3ff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    height: 200px;
+  }
+  
+  .feature-icon {
+    font-size: 2rem;
+    color: #0077b6;
+    margin-bottom: 10px;
+  }
+  
+  .guest-feature-box h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #1c3c59;
+  }
+  
+  .guest-feature-box p {
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .guest-cta {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .guest-cta h2 {
+    font-size: 2rem;
+    color: #154c79;
+  }
+  
+  .guest-cta p {
+    margin: 10px 0 20px;
+    color: #555;
+  }
+  
+  .guest-cta button {
+    padding: 12px 30px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .guest-cta button:hover {
+    background-color: #125abb;
+  }
+  
+  @media (max-width: 768px) {
+    .guest-features {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .guest-feature-box {
+      width: 90%;
+    }
+  }
+  

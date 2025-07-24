@@ -1,0 +1,76 @@
+.enquire-container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #fff8f0;
+    border-radius: 15px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .enquire-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .enquire-header h1 {
+    color: #d35400;
+    font-size: 2.5rem;
+  }
+  
+  .enquire-header p {
+    color: #5c3d25;
+    font-size: 1.1rem;
+  }
+  
+  .enquire-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .enquire-form label {
+    font-weight: 600;
+    color: #7f4b2d;
+  }
+  
+  .enquire-form input,
+  .enquire-form select,
+  .enquire-form textarea {
+    padding: 12px;
+    border: 1px solid #e0cbb8;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 1rem;
+  }
+  
+  .enquire-form textarea {
+    resize: vertical;
+  }
+  
+  .enquire-form button {
+    background-color: #e67e22;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .enquire-form button:hover {
+    background-color: #c1580a;
+  }
+  
+  .enquire-contact {
+    margin-top: 40px;
+    text-align: center;
+    color: #6b402a;
+  }
+  
+  .enquire-contact h3 {
+    margin-bottom: 10px;
+    color: #a84300;
+  }
+  

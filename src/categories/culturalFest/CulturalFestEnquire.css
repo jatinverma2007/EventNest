@@ -1,0 +1,76 @@
+.fest-enquire-container {
+    max-width: 700px;
+    margin: 60px auto;
+    background: linear-gradient(to right, #fbe9e7, #ffe9bc);
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .fest-enquire-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .fest-enquire-header h1 {
+    color: #bf360c;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .fest-enquire-header p {
+    color: #4e342e;
+    font-size: 1.1rem;
+  }
+  
+  .fest-enquire-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #3e2723;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #fffefb;
+    transition: border 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: #bf360c;
+    outline: none;
+  }
+  
+  .fest-submit-btn {
+    background-color: #bf360c;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fest-submit-btn:hover {
+    background-color: #d84315;
+  }
+  

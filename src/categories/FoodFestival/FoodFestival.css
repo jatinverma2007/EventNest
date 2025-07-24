@@ -1,0 +1,118 @@
+.foodfest-page {
+    background: linear-gradient(135deg, #fff5d7, #fbcdd5);
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .foodfest-hero {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .foodfest-hero h1 {
+    font-size: 2.8rem;
+    color: #d62828;
+  }
+  
+  .foodfest-hero p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .foodfest-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-bottom: 60px;
+  }
+  
+  .highlight-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .highlight-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .highlight-icon {
+    font-size: 2rem;
+    color: #f77f00;
+    margin-bottom: 10px;
+  }
+  
+  .foodfest-gallery {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .foodfest-gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #003049;
+  }
+  .gallery-wrapper figure {
+    text-align: center;
+  }
+  
+  .gallery-wrapper figcaption {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    color: #333;
+    font-weight: 500;
+  }
+  
+
+  .gallery-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-wrapper img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .foodfest-cta {
+    background-color: #ffb703;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: #000;
+    margin-top: 50px;
+  }
+  
+  .foodfest-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .foodfest-cta p {
+    margin-bottom: 20px;
+  }
+  
+  .foodfest-button {
+    background-color: #d62828;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .foodfest-button:hover {
+    background-color: #9b1c1c;
+  }
+  

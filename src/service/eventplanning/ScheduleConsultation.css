@@ -1,0 +1,75 @@
+.schedule-container {
+    max-width: 650px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #deecfc;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  .schedule-container h2 {
+    font-size: 2rem;
+    color: #1a3e72;
+    margin-bottom: 10px;
+  }
+  
+  .schedule-container p {
+    color: #4b4b4b;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .schedule-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    text-align: left;
+  }
+  
+  .schedule-form label {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .schedule-form input,
+  .schedule-form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #cbdcec;
+    font-size: 1rem;
+    background-color: #fff;
+  }
+  
+  .schedule-form textarea {
+    resize: none;
+  }
+  
+  .schedule-form button {
+    padding: 14px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .schedule-form button:hover {
+    background-color: #155ab3;
+  }
+  
+  @media (max-width: 768px) {
+    .schedule-container {
+      margin: 30px 20px;
+      padding: 25px;
+    }
+  
+    .schedule-container h2 {
+      font-size: 1.6rem;
+    }
+  }
+  

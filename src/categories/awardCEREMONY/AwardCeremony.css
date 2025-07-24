@@ -1,0 +1,137 @@
+.award-page {
+    font-family: 'Segoe UI', sans-serif;
+    color: #1f1f1f;
+    background-color: #fdf8f2;
+  }
+  
+  .award-hero {
+    background: url('../../Images/award-banner.jpg') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 30px;
+  }
+  
+  .award-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    color: #f8e9a1;
+  }
+  
+  .award-overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .award-overlay p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .award-highlights {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #fff;
+    flex-wrap: wrap;
+  }
+  
+  .award-feature {
+    flex: 1 1 250px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    background: #fff8dc;
+    border: 2px solid #e0c97f;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .award-feature:hover {
+    transform: scale(1.05);
+  }
+  
+  .award-icon {
+    font-size: 2.5rem;
+    color: #bfa133;
+    margin-bottom: 15px;
+  }
+  
+  .award-feature h3 {
+    color: #1e1e1e;
+    margin-bottom: 10px;
+  }
+  
+  .award-gallery {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .award-gallery h2 {
+    color: #222;
+    margin-bottom: 40px;
+  }
+  
+  .award-gallery-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .award-gallery-grid div {
+    width: 280px;
+    text-align: center;
+  }
+  
+  .award-gallery-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .award-gallery-grid p {
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  
+  .award-cta {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fdf3da;
+  }
+  
+  .award-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .award-cta p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    color: #444;
+  }
+  
+  .award-button {
+    padding: 12px 28px;
+    background-color: #bfa133;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .award-button:hover {
+    background-color: #9c7f22;
+  }
+
+  

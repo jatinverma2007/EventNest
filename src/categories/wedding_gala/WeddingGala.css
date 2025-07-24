@@ -1,0 +1,197 @@
+/* WeddingGala.module.css - Updated with wedding- prefix */
+
+.wedding-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fdf7ff;
+  
+}
+
+/* Hero Section */
+.wedding-hero-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.wedding-hero-image {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  filter: brightness(60%);
+  border-bottom: 6px solid #821fbb;
+  border-radius:30px;
+}
+
+.wedding-hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.wedding-hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.wedding-hero-text p {
+  font-size: 1.2rem;
+  color: #f5f5f5;
+}
+
+/* Section Styling */
+.wedding-why-section,
+.wedding-package-section,
+.wedding-themes-section,
+.wedding-venue-section,
+.wedding-testimonial-section,
+.wedding-cta-section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.wedding-why-section {
+  background-color: #f8e6ff;
+  border-radius: 40px;
+}
+
+.wedding-why-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wedding-why-section li {
+  margin: 12px 0;
+  font-size: 1.1rem;
+  
+}
+
+/* Package Cards */
+.wedding-package-section {
+  background-color: #daa3fa;
+  border-radius: 80px;
+  margin-top: 30px;
+}
+
+.wedding-package-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.wedding-venue-section{
+  background-color: rgb(244, 190, 250);
+  border-radius: 5em;
+  margin-left: 300px;
+}
+
+.wedding-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 14px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.wedding-card:hover {
+  transform: scale(1.05);
+}
+
+.wedding-card h3 {
+  color: #821fbb;
+  font-size: 1.4rem;
+}
+
+.wedding-price {
+  font-weight: bold;
+  color: #410a63;
+  margin-top: 10px;
+}
+
+/* Images */
+.wedding-theme-img,
+.wedding-venue-img {
+  width: 50%;
+  border-radius: 12px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Testimonials */
+.wedding-testimonial-section {
+  background-color: #f1ddff;
+  border-radius: 30px;
+  margin-right: 300px;
+  margin-top: 30px;
+}
+
+.wedding-testimonial img {
+  width: 500px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+
+.wedding-testimonial blockquote {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 10px;
+}
+
+.wedding-testimonial cite {
+  font-weight: bold;
+  color: #821fbb;
+}
+
+/* CTA */
+.wedding-cta-section {
+  background-color: #821fbb;
+  color: white;
+  border-top: 5px solid #5d1587;
+  border-bottom: 5px solid #5d1587;
+  border-radius: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.wedding-bookButton {
+  margin-top: 15px;
+  padding: 12px 30px;
+  background-color: rgb(11, 5, 5);
+  color: #f8f2f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.wedding-bookButton:hover {
+  background-color: #5d1587;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .wedding-hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .wedding-package-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wedding-hero-text {
+    padding: 20px;
+  }
+}
